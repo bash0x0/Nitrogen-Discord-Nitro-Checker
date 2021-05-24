@@ -14,4 +14,4 @@
 
 ---
 
-![](https://discord.tax/P7DvonDVMY.gif?key=YJfWPr0FSjqJnO)
+![](https://discord.tax/iiTWEKU6Km.gif?key=LQmdquYfM81TPo)
