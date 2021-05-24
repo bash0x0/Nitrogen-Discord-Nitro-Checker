@@ -7,7 +7,7 @@
 * Computer
 
 ## Usage:
-1. Run `py -m pip install -r requirements.txt`
+1. Run `py -m pip install requests`
 2. Get free HTTP proxies at [Proxyscrape](https://proxyscrape.com/free-proxy-list)
 3. Place those proxies into proxies.txt
 4. Run `py main.py`
