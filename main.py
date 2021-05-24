@@ -34,7 +34,7 @@ class NitroGenerator:
     def _check(self, nitro: str) -> None:
         while True:
             proxy = random.choice(self.proxies)
-            proxies = {"http": f"http://{proxy}", "https": f"http://{proxy}"}
+            proxies = {"http": f"socks4://{proxy}", "https": f"socks4://{proxy}"}
             try:
                 response = requests.get(
                     f"https://discord.com/api/v9/entitlements/gift-codes/{nitro}",
@@ -71,10 +71,7 @@ class NitroGenerator:
 
         threading.Thread(target=self._update_title).start()
         for custom in customs:
-            while True:
-                if threading.active_count() <= 300:
-                    threading.Thread(target=self._check, args=(custom,)).start()
-                    break
+            threading.Thread(target=self._check, args=(custom,)).start()
 
     def bruteforce_mode(self) -> None:
         mode = input(
@@ -96,12 +93,11 @@ class NitroGenerator:
 
         threading.Thread(target=self._update_title).start()
         while True:
-            if threading.active_count() <= 300:
-                nitro = "".join(
-                    random.choice(string.ascii_letters + string.digits)
-                    for _ in range(lenght)
-                )
-                threading.Thread(target=self._check, args=(nitro,)).start()
+            nitro = "".join(
+                random.choice(string.ascii_letters + string.digits)
+                for _ in range(lenght)
+            )
+            threading.Thread(target=self._check, args=(nitro,)).start()
 
 
 if __name__ == "__main__":

@@ -3,17 +3,23 @@
 <h4 align="center">⭐ Star Pls ⭐</h4>
 
 ## Requirements:
-* [Python](https://www.python.org) 3.8 >
-* Computer
+
+- [Python](https://www.python.org) 3.8 >
+- Computer
 
 ## Usage:
+
 1. Run `py -m pip install requests`
-2. Get free HTTP proxies at [Proxyscrape](https://proxyscrape.com/free-proxy-list)
+2. Get free SOCKS4 proxies at [Proxyscrape](https://proxyscrape.com/free-proxy-list)
 3. Place those proxies into data/proxies.txt
 4. Run `py main.py`
 
 ## Showcases:
+
 ### Bruteforce
-![](https://discord.tax/iiTWEKU6Km.gif?key=LQmdquYfM81TPo)
+
+![](https://discord.tax/3rScDEW3YB.gif?key=9mkRcvUpKw1j1p)
+
 ### Custom
-![](https://discord.tax/v8LRmVWx9H.gif?key=Iwaa40edad2Bco)
+
+![](https://discord.tax/oRbRyhGkcr.gif?key=R3Q6vHkcFfrapR)
