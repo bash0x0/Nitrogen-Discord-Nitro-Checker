@@ -12,6 +12,8 @@
 3. Place those proxies into data/proxies.txt
 4. Run `py main.py`
 
----
-
+## Showcases:
+### Bruteforce
 ![](https://discord.tax/iiTWEKU6Km.gif?key=LQmdquYfM81TPo)
+### Custom
+![](https://discord.tax/v8LRmVWx9H.gif?key=Iwaa40edad2Bco)
