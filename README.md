@@ -1,6 +1,7 @@
 <h1 align="center">💎 Nitrogen 💎</h1>
 <h3 align="center">The Most Advanced Discord Nitro Checker And Generator</h3>
 <h4 align="center">⭐ Star Pls ⭐</h4>
+<h4 align="center">⭐ Fork me  ⭐</h4>
 
 ## Requirements:
 
@@ -23,3 +24,16 @@
 ### Custom
 
 ![](https://discord.tax/oRbRyhGkcr.gif?key=R3Q6vHkcFfrapR)
+
+### Development
+Want to contribute? Great!
+
+To fix a bug or enhance an existing module, follow these steps:
+
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request 
